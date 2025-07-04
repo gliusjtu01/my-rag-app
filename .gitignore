@@ -1,0 +1,66 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.cache/
+.pytest_cache/
+
+# VSCode settings
+.vscode/
+
+# Logs and outputs
+*.log
+*.out
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables or secrets
+.env
+.env.*
+
+# Model files
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# FastAPI auto-generated OpenAPI files (if used)
+openapi.json
+docs.json
+
+# FAISS or Chroma local indexes (if persisted)
+index/
+chroma.db/
+*.faiss
+
+# GitHub Actions cache
+__github__/
+
+# Python profiling or debug
+.prof
+*.pstats
+
+# MyPy and static analysis
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml

@@ -1,1 +1,1 @@
-# my-rag-app
+# My RAG App
